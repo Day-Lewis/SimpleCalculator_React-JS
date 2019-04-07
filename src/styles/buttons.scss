@@ -1,0 +1,60 @@
+.calculator__buttons_numbers {
+	position: absolute;
+	top: 130px;
+	left: 20px;
+	width: 60%;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+		div[data-number] {
+			width: 23%;
+			height: 11%;
+			border: 1px solid #000;
+			display: inline-block;
+			background: #eee;
+			text-align: center;
+			line-height: 50px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			border-radius: 10px;
+			box-shadow: inset 0px 0px 20px 5px #cc6bdb;
+			border: 2px solid #fff;
+				&:hover {
+					cursor: pointer;
+				}
+	}
+	div[class="calculator__buttons_result"]{
+		width: 54%;
+	}
+}
+
+.calculator__buttons_math {
+	position: absolute;
+	width: 39%;
+	top: 130px;
+	right: 15px;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	div[data-math] {
+		width: 36%;
+		height: 11%;
+		border: 1px solid #000;
+		display: inline-block;
+		background: #eee;
+		text-align: center;
+		line-height: 50px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+		border-radius: 10px;
+		box-shadow: inset 0px 0px 20px 5px #cc6bdb;
+		border: 2px solid #fff;
+
+			&:hover {
+				cursor: pointer;
+			}
+}
+div[class="calculator__buttons_point"], div[class="calculator__buttons_clear"] {
+	width: 85%;
+}
+}
