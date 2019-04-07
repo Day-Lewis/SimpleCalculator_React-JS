@@ -1,0 +1,18 @@
+.calculator__field {
+	width: 90%;
+	height: 15%;
+	background: #eee;
+	border-radius: 10px;
+	position: absolute;
+	left: 20px;
+	top: 40px;
+	font-size: 40px;
+	padding-left: 25px;
+	box-shadow: inset -4px 1px 20px 10px #cc6bdb;
+	border: 2px solid #fff;
+
+	&:focus {
+		outline: none;
+
+	}
+}
